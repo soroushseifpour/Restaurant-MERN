@@ -1,0 +1,12 @@
+.sliderImage{
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

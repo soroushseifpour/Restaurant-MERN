@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    z-index: 3;
+}
+.sidebar{
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 1rem;
+    list-style: none ;
+}
+.item{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 10px;
+}

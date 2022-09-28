@@ -1,0 +1,82 @@
+.navbar{
+    background: rgb(200, 16, 46);
+    color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.itemList,.menuList{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.menuList{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.timhorton,.menuRight{
+    justify-content: center;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    border: 1px solid red;
+    border-radius: 9999rem;
+    color: rgb(200, 16, 46);
+    background: white;
+}
+.signup:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.itemList{
+ justify-content: space-around;   
+ align-items: center;
+}
+.menuItem{
+    margin: .2rem;
+    padding: .2rem;
+}
+.ham{
+    display: none;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+@media (max-width:700px) {
+    .ham{
+        display: flex;
+        flex-direction: column;
+    }
+    .ham span{
+        width: 40px;
+        height: 4px;
+        background: #333;
+        margin: 0.1rem;
+        margin-left: 1rem;
+    }
+    .navlist{
+        display: none;
+    }
+    .itemList{
+        justify-content: unset;
+    }
+}

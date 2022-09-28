@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(205, 205, 219);
+    width: 100%;
+    height: 100%;
+}
+.card{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 0rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.cardHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem;
+}
+.heading{
+    width: auto;
+}
+.heading span{
+    font-weight: bold;
+    padding: .1rem;
+}
+.btn{
+    width: auto;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    padding: .1rem;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 100%;
+    align-items: center;
+}
+.imgContainer{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.btnController{
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.addbtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ccc;   
+}
+.removebtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;   
+    cursor: pointer;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+
+}
+.information span{
+    font-weight: bold;
+}
+.save{
+    color: red;
+    text-decoration: underline;
+    font-size: small;
+}
+.remove{
+    color: blue;
+    text-decoration: underline;
+    font-size: small;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+}
+.orderbtn{
+    width: 30%;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}

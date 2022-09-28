@@ -1,0 +1,26 @@
+.container{
+    margin-top: 5rem; width: 100%;
+}
+.container h3{
+    text-align: center;
+    color: orangered;
+}
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table1 tbody{
+    width: 80%;
+    margin: auto;
+}
+.table1 thead{
+    width: 80%;
+    margin: auto;
+}  
+.th1, .td1 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+#table1  tr:hover {background-color: coral;}

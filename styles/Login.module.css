@@ -1,0 +1,50 @@
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: auto;
+    background: rgb(28, 28, 108);
+    padding: 3rem;
+    margin-top: 5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    -webkit-box-shadow: 0px 5px 15px 5px #000000; 
+    box-shadow: 0px 5px 15px 5px #000000;
+}
+.formInput input{
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.formInput label{
+    font-weight: bold;
+}
+.btn{
+    font-weight: bold;
+    padding: .3rem;
+    background: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+.btnBlock{
+    font-weight: bold;
+    padding: .3rem;
+    background: #ccc;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    opacity: .6;
+    cursor: not-allowed;
+}
